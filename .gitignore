@@ -1,0 +1,17 @@
+.vagrant
+Berksfile.lock
+*~
+.DS_Store
+*#
+.#*
+\#*#
+.*.sw[a-z]
+*.un~
+
+# Bundler
+Gemfile.lock
+bin/*
+.bundle/*
+
+.kitchen/
+.kitchen.local.yml

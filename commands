@@ -1,0 +1,19 @@
+chef gernerate w_django_nginx
+#Greate Gemfile
+budle install
+budle exec rspect spc
+
+[testkitchen]
+bundle exec kitchen create
+bundle exec kitchen setup = (install chef and converge)
+bundle exec kitchen converge (run chef)
+bundle exec kitchen verify (run serverspec)
+bundle exec kitchen destroy (vagrant destory)
+bundle exec kitchen test (create, setup, verify, destroy)
+bundle exec kitchen login
+
+
+application cookbook (community cookbook like apache2)
+wrapper cookbook
+library cookbook (no recipe, only library)
+

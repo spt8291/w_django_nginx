@@ -1,0 +1,11 @@
+name 'w_django_nginx'
+maintainer 'The Authors'
+maintainer_email 'spt8291@gmail.com'
+license 'apache2'
+description 'Installs/Configures w_django_nginx'
+long_description 'Installs/Configures w_django_nginx'
+version '0.1.0'
+
+depends 'nginx'
+depends 'poise-python'
+depends 'application_python'
